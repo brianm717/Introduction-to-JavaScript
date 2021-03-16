@@ -16,9 +16,13 @@ Do the following:
    2. Console log true if age is 18 or higher
 
    HINT: no function required
-*/
-
-
+  */
+   const votingAge = 18;
+   if(votingAge >= 18){
+     console.log(true)
+   }else {
+     console.log(false)
+   }
 
 /*
 Task 1b - Values
@@ -30,6 +34,7 @@ Do the following:
 
    HINT: no function required
 */
+const 
 
 
 
@@ -58,9 +63,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
-  }
+
+function multiply(a,b){
+  return a * b;
+     }
 
 
 
